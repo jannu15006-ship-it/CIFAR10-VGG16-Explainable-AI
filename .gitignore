@@ -1,0 +1,21 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large Model weights (exceeds GitHub 100MB limit)
+*.h5
+*.keras
+*.ckpt
+*.pt
+*.pth
+
+# Environments
+env/
+venv/
+ENV/
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
